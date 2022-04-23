@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-04-23T13:49:54.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.72" version="17.4.5" etag="UBzqa7-K9yZpPvjNvwdx" type="github"><diagram id="7Qw6pbEeIzk2xIP6izjz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-23T14:07:09.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.72" etag="HLR0a-4bPoU3ISZWCv0o" version="17.4.5" type="github">
+  <diagram id="7Qw6pbEeIzk2xIP6izjz" name="Page-1">
+    <mxGraphModel dx="2668" dy="1208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-1" value="Funcionário" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-2" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CRHBmkcnd31kH2aSU4Qs-2" target="CRHBmkcnd31kH2aSU4Qs-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="220" as="sourcePoint" />
+            <mxPoint x="170" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-4" value="Pesquisador" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-5" value="Secretário" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-6" value="Funcionário de limpeza" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CRHBmkcnd31kH2aSU4Qs-4" target="CRHBmkcnd31kH2aSU4Qs-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="150" as="sourcePoint" />
+            <mxPoint x="180" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="CRHBmkcnd31kH2aSU4Qs-2" target="CRHBmkcnd31kH2aSU4Qs-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="180" as="sourcePoint" />
+            <mxPoint x="380" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CRHBmkcnd31kH2aSU4Qs-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CRHBmkcnd31kH2aSU4Qs-6" target="CRHBmkcnd31kH2aSU4Qs-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="170" as="sourcePoint" />
+            <mxPoint x="430" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
