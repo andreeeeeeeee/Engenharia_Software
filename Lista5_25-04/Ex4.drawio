@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:56:47.355Z" agent="5.0 (X11)" version="17.4.6" etag="VFUO99VgnolNPyBeB_Lm" type="github"><diagram id="wHhPj2vSyAUcLKlHgDm2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-25T14:22:42.206Z" agent="5.0 (X11)" etag="u1JZzxslYY9jOAJDHTWT" version="17.4.6" type="github">
+  <diagram id="wHhPj2vSyAUcLKlHgDm2" name="Page-1">
+    <mxGraphModel dx="782" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-4" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-1" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-2" value="Compra" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-3" value="Produto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="-p_KNhGqjYxJIOsq6iX0-1" target="-p_KNhGqjYxJIOsq6iX0-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="290" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="-p_KNhGqjYxJIOsq6iX0-4" target="-p_KNhGqjYxJIOsq6iX0-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="290" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-7" value="Cupom fiscal" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-8" value="Registra" style="rhombus;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="-p_KNhGqjYxJIOsq6iX0-8" target="-p_KNhGqjYxJIOsq6iX0-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="290" as="sourcePoint" />
+            <mxPoint x="420" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-p_KNhGqjYxJIOsq6iX0-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="-p_KNhGqjYxJIOsq6iX0-8" target="-p_KNhGqjYxJIOsq6iX0-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="110" as="sourcePoint" />
+            <mxPoint x="410" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
