@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T12:58:15.891Z" agent="5.0 (X11)" version="17.4.6" etag="nNqODJNA1eOyE5E-rtZI" type="github"><diagram id="e9sKhdDgGD3IVuLtpbr4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-25T13:28:24.531Z" agent="5.0 (X11)" etag="ukiuTMQox9qYAsM2yDNK" version="17.4.6" type="github">
+  <diagram id="e9sKhdDgGD3IVuLtpbr4" name="Page-1">
+    <mxGraphModel dx="652" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gyFbXSJ_E6DfAGe-0u7m-2" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gyFbXSJ_E6DfAGe-0u7m-7" value="Requisita" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="140" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gyFbXSJ_E6DfAGe-0u7m-8" value="Produto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gyFbXSJ_E6DfAGe-0u7m-9" value="Serviço" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gyFbXSJ_E6DfAGe-0u7m-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="gyFbXSJ_E6DfAGe-0u7m-7" target="gyFbXSJ_E6DfAGe-0u7m-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="280" as="sourcePoint" />
+            <mxPoint x="240" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gyFbXSJ_E6DfAGe-0u7m-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="gyFbXSJ_E6DfAGe-0u7m-9" target="gyFbXSJ_E6DfAGe-0u7m-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gyFbXSJ_E6DfAGe-0u7m-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="gyFbXSJ_E6DfAGe-0u7m-8" target="gyFbXSJ_E6DfAGe-0u7m-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="240" as="sourcePoint" />
+            <mxPoint x="300" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
