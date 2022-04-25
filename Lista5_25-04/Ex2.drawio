@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T13:28:24.531Z" agent="5.0 (X11)" etag="ukiuTMQox9qYAsM2yDNK" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T13:30:20.015Z" agent="5.0 (X11)" etag="8lXZdg4nP4Kmx1k1LmKs" version="17.4.6" type="github" pages="2">
   <diagram id="e9sKhdDgGD3IVuLtpbr4" name="Page-1">
     <mxGraphModel dx="652" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,6 +38,53 @@
             <Array as="points">
               <mxPoint x="280" y="120" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zqoM7K0TakhKMUWJlDSb" name="Page-2">
+    <mxGraphModel dx="652" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-1" value="Cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-2" value="Serviço" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-3" value="Contrata" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-4" value="Compra" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-5" value="Produto" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="g4FIYY2h9kPFmFcXv_Ep-4" target="g4FIYY2h9kPFmFcXv_Ep-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="380" as="sourcePoint" />
+            <mxPoint x="430" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="g4FIYY2h9kPFmFcXv_Ep-4" target="g4FIYY2h9kPFmFcXv_Ep-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="g4FIYY2h9kPFmFcXv_Ep-1" target="g4FIYY2h9kPFmFcXv_Ep-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="410" as="sourcePoint" />
+            <mxPoint x="390" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g4FIYY2h9kPFmFcXv_Ep-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="g4FIYY2h9kPFmFcXv_Ep-3" target="g4FIYY2h9kPFmFcXv_Ep-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="320" as="sourcePoint" />
+            <mxPoint x="390" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
