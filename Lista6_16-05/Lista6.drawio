@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-18T05:41:51.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.79" etag="VTAjvDLr4C8PIOoY_JTU" version="18.0.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-18T05:43:18.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.79" etag="f-hfUkY8SXHNc9MyiCeN" version="18.0.2" type="github" pages="2">
   <diagram id="wXnpWY6aNnh9sXPZ4-mf" name="Ex-1-ER">
     <mxGraphModel dx="827" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,13 +193,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oAvmCOgTyP6VpXKZGT1a-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry width="240" height="240" as="geometry" />
+          <mxGeometry x="19" y="415" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="oAvmCOgTyP6VpXKZGT1a-2" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cliente (&lt;b&gt;Cl_numero&lt;/b&gt;, Cl_nome)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Endereço (&lt;b&gt;Cl_numero&lt;/b&gt;, Cl_endereco)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Cl_numero referencia Cliente&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Apólice (&lt;b&gt;Ap_numero&lt;/b&gt;, &lt;b&gt;Cl_numero&lt;/b&gt;, &lt;b&gt;Ca_registro&lt;/b&gt;, Ap_valor)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Cl_numero referencia Cliente&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Ca_registro referencia Carro&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Carro (&lt;b&gt;Ca_registro&lt;/b&gt;, Ca_marca)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Acidente (&lt;b&gt;Ac_data&lt;/b&gt;, &lt;b&gt;Ca_registro&lt;/b&gt;, Ac_hora, Ac_local)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;i&gt;Ca_registro referencia Carro&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="10" width="220" height="220" as="geometry" />
+          <mxGeometry x="29" y="425" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="2ckKhrjhJKjkPzwcMj3I-1" value="Cliente" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;swimlaneLine=1;shadow=0;sketch=0;swimlaneFillColor=default;gradientColor=none;columnLines=1;" vertex="1" parent="1">
-          <mxGeometry x="280" width="170" height="120" as="geometry" />
+          <mxGeometry x="310" y="415" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2ckKhrjhJKjkPzwcMj3I-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="2ckKhrjhJKjkPzwcMj3I-1">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
@@ -241,7 +241,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2ckKhrjhJKjkPzwcMj3I-18" value="Endereço" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;swimlaneLine=1;shadow=0;sketch=0;swimlaneFillColor=default;gradientColor=none;columnLines=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="130" width="170" height="150" as="geometry" />
+          <mxGeometry x="310" y="545" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2ckKhrjhJKjkPzwcMj3I-19" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="2ckKhrjhJKjkPzwcMj3I-18">
           <mxGeometry y="30" width="170" height="30" as="geometry" />
@@ -296,7 +296,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2ckKhrjhJKjkPzwcMj3I-37" value="Apólice" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;swimlaneLine=1;shadow=0;sketch=0;swimlaneFillColor=default;gradientColor=none;columnLines=1;" vertex="1" parent="1">
-          <mxGeometry x="480" width="310" height="150" as="geometry" />
+          <mxGeometry x="499" y="415" width="310" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2ckKhrjhJKjkPzwcMj3I-38" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="2ckKhrjhJKjkPzwcMj3I-37">
           <mxGeometry y="30" width="310" height="30" as="geometry" />
@@ -391,7 +391,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ckk5yGtQMoTr2uSfDVpV-5" value="Carro" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;swimlaneLine=1;shadow=0;sketch=0;swimlaneFillColor=default;gradientColor=none;columnLines=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="160" width="160" height="150" as="geometry" />
+          <mxGeometry x="499" y="575" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Ckk5yGtQMoTr2uSfDVpV-6" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="Ckk5yGtQMoTr2uSfDVpV-5">
           <mxGeometry y="30" width="160" height="30" as="geometry" />
@@ -446,7 +446,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="w-L3kpts7CV-MhKVm01Z-9" value="Acidente" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;swimlaneLine=1;shadow=0;sketch=0;swimlaneFillColor=default;gradientColor=none;columnLines=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="290" width="280" height="90" as="geometry" />
+          <mxGeometry x="19" y="665" width="280" height="90" as="geometry" />
         </mxCell>
         <mxCell id="w-L3kpts7CV-MhKVm01Z-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="w-L3kpts7CV-MhKVm01Z-9">
           <mxGeometry y="30" width="280" height="30" as="geometry" />
