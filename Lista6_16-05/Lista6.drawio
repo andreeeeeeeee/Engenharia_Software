@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T19:44:42.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="r8cx4Qwn8A-nkFIhadIi" version="18.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-22T19:45:14.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="lhoJDwUpQM_mkEqOq017" version="18.1.1" type="github" pages="6">
   <diagram id="wXnpWY6aNnh9sXPZ4-mf" name="Ex-1-ER">
     <mxGraphModel dx="827" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -188,7 +188,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FA1aAqckvlu4PTCzGnl2" name="Ex-1-Lógico">
-    <mxGraphModel dx="932" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1039" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1111,17 +1111,17 @@
         <mxCell id="CPJkJ-m1vWIRGbgMmP81-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="CPJkJ-m1vWIRGbgMmP81-14" vertex="1">
           <mxGeometry y="30" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CPJkJ-m1vWIRGbgMmP81-16" value="Prj_num" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;" parent="CPJkJ-m1vWIRGbgMmP81-15" vertex="1">
+        <mxCell id="CPJkJ-m1vWIRGbgMmP81-16" value="Prj_num" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="CPJkJ-m1vWIRGbgMmP81-15" vertex="1">
           <mxGeometry width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CPJkJ-m1vWIRGbgMmP81-17" value="Frn_num" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;" parent="CPJkJ-m1vWIRGbgMmP81-15" vertex="1">
+        <mxCell id="CPJkJ-m1vWIRGbgMmP81-17" value="Frn_num" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="CPJkJ-m1vWIRGbgMmP81-15" vertex="1">
           <mxGeometry x="60" width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CPJkJ-m1vWIRGbgMmP81-18" value="Pc_num" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;" parent="CPJkJ-m1vWIRGbgMmP81-15" vertex="1">
+        <mxCell id="CPJkJ-m1vWIRGbgMmP81-18" value="Pc_num" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="CPJkJ-m1vWIRGbgMmP81-15" vertex="1">
           <mxGeometry x="120" width="60" height="30" as="geometry">
             <mxRectangle width="60" height="30" as="alternateBounds" />
           </mxGeometry>
