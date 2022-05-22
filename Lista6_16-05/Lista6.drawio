@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T02:48:08.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="lMn9YFaH3JirAYM51PLR" version="18.0.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-05-22T03:18:09.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="URSbR8ETaMtwAa7yqllD" version="18.0.7" type="github" pages="5">
   <diagram id="wXnpWY6aNnh9sXPZ4-mf" name="Ex-1-ER">
     <mxGraphModel dx="845" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1250,8 +1250,32 @@
         <mxCell id="Jh0NFUAzw6onCDTTXoRf-6" value="(1,1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="180" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Jh0NFUAzw6onCDTTXoRf-10" value="Pedido" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="160" y="160" width="80" height="80" as="geometry" />
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" source="Jh0NFUAzw6onCDTTXoRf-10" target="Jh0NFUAzw6onCDTTXoRf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-10" value="Pedido" style="shape=associativeEntity;whiteSpace=wrap;html=1;align=center;fillColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="160" y="159" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="1" source="Jh0NFUAzw6onCDTTXoRf-15" target="Jh0NFUAzw6onCDTTXoRf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-15" value="Possui" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-16" value="Peça" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="140" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="1" source="Jh0NFUAzw6onCDTTXoRf-17" target="Jh0NFUAzw6onCDTTXoRf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-17" value="Contém" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=1;" edge="1" parent="1" source="Jh0NFUAzw6onCDTTXoRf-18" target="Jh0NFUAzw6onCDTTXoRf-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh0NFUAzw6onCDTTXoRf-18" value="Armazém" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry y="290" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
