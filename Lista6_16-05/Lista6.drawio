@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-22T18:41:31.248Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="RKDWEKcwVwrP_fdd0P2P" version="18.1.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-05-22T19:05:36.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.64" etag="7pzqebmVnvMqQgP-gyFQ" version="18.1.1" type="github" pages="6">
   <diagram id="wXnpWY6aNnh9sXPZ4-mf" name="Ex-1-ER">
     <mxGraphModel dx="827" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1521,8 +1521,8 @@
         <mxCell id="ubSU-COiV3oQ4ZocAEbH-5" value="quantidade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="240" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ubSU-COiV3oQ4ZocAEbH-6" value="preco_cotado" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="640" y="280" width="90" height="20" as="geometry" />
+        <mxCell id="ubSU-COiV3oQ4ZocAEbH-6" value="preco" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1535,7 +1535,7 @@
         <mxCell id="66CjB63si8Tpx4sARH_L-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="19" y="382" width="240" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="66CjB63si8Tpx4sARH_L-2" value="&lt;div style=&quot;&quot;&gt;Armazém (&lt;b&gt;Ar_cd&lt;/b&gt;, Ar_end)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Peça (&lt;b&gt;Pc_cd&lt;/b&gt;, &lt;b&gt;Ar_cd&lt;/b&gt;, Pc_dsc, Pc_preco, Pc_qtdEtq)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;i&gt;Ar_cd referencia Armazém&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="66CjB63si8Tpx4sARH_L-2" value="&lt;div style=&quot;&quot;&gt;Armazém (&lt;b&gt;Ar_cd&lt;/b&gt;, Ar_end)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Peça (&lt;b&gt;Pc_cd&lt;/b&gt;, &lt;b&gt;Ar_cd&lt;/b&gt;, Pc_dsc, Pc_preco, Pc_qtdEtq)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;i&gt;Ar_cd referencia Armazém&lt;/i&gt;&lt;br&gt;Vendedor (&lt;b&gt;Vnd_cd&lt;/b&gt;, Vnd_nome, Vnd_end, Vnd_com)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Cliente (&lt;b&gt;Cl_cd&lt;/b&gt;, &lt;b&gt;Vnd_cd&lt;/b&gt;, Vnd_nome, Cl_nome, Cl_end, Cl_ftmn, Cl_credLim)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;i&gt;Vnd_cd referencia Vendedor&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;i&gt;Vnd_nome referencia Vendedor&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Item (&lt;b&gt;Pd_num&lt;/b&gt;, &lt;b&gt;Pc_cd&lt;/b&gt;, It_qtd, It_preco)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Pedido (&lt;b&gt;Pd_num&lt;/b&gt;,&amp;nbsp;&lt;/div&gt;&lt;b&gt;Vnd_cd&lt;/b&gt;,&amp;nbsp;&lt;b&gt;Cl_cd&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;Cl_nome, Cl_end, Pd_data)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="29" y="392" width="220" height="220" as="geometry" />
         </mxCell>
         <mxCell id="66CjB63si8Tpx4sARH_L-3" value="Depósito" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;resizeLast=1;swimlaneLine=1;shadow=0;sketch=0;swimlaneFillColor=default;gradientColor=none;columnLines=1;" vertex="1" parent="1">
