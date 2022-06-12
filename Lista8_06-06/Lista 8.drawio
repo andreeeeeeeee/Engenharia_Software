@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-12T05:14:05.516Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.70" etag="TGVRBO9Auwnp3avzg_NS" version="20.0.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-12T18:27:16.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.70" etag="ofoNixiQaCwu9CXB12BZ" version="20.0.0" type="github" pages="6">
   <diagram id="XgE1JUOre8vWWVabGImU" name="Ex1a">
-    <mxGraphModel dx="382" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1067" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1262,6 +1262,17 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram id="XzwPZsAsATVKjm4tKYwh" name="Ex1b">
+    <mxGraphModel dx="1067" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i-WIohOJAQUMwxCdHSJJ-1" value="&amp;nbsp;b) ORDEM_COMPRA (cod_ordem_compra, data_emissão, cod_fornecedor, num_fornecedor, endereço_fornecedor, cod_material(n vezes), descrição_material(n vezes), qtd_comprada(n vezes), valor_unitário(n vezes), valor_total_item(n vezes), valor_total_ordem)&lt;br&gt;&lt;br&gt;&lt;b&gt;1FN&lt;br&gt;&lt;/b&gt;ORDEM_COMPRA (&lt;u&gt;cod_ordem_compra&lt;/u&gt;, dia_emissão, mes_emissão, ano_emissão, valor_total_ordem)&lt;br&gt;ITENS_COMPRA (&lt;u&gt;cod_ordem_compra&lt;/u&gt;, cod_material, descrição_material, qtd_comprada, valor_unitário, valor_total_item, cod_fornecedor, num_fornecedor, rua_fornecedor, numRua_fornecedor)&lt;br&gt;&lt;br&gt;&lt;b&gt;2FN&lt;br&gt;&lt;/b&gt;ORDEM_COMPRA (&lt;u&gt;cod_ordem_compra&lt;/u&gt;, dia_emissão, mes_emissão, ano_emissão,&amp;nbsp;&lt;i&gt;valor_total_ordem&lt;/i&gt;)&lt;br&gt;ITENS_COMPRA (&lt;u&gt;cod_ordem_compra&lt;/u&gt;, cod_material, qtd_comprada, valor_total_item, valor_total_ordem)&lt;br&gt;FORNECEDOR (&lt;u&gt;cod_fornecedor&lt;/u&gt;, num_fornecedor, rua_fornecedor, numRua_fornecedor)&lt;br&gt;MATERIAL (&lt;u&gt;cod_material&lt;/u&gt;, descrição_material, valor_unitário, &lt;i&gt;cod_fornecedor&lt;/i&gt;)&lt;br&gt;&lt;br&gt;&lt;b&gt;3FN&lt;br&gt;&lt;/b&gt;ORDEM_COMPRA (&lt;u&gt;cod_ordem_compra&lt;/u&gt;, dia_emissão, mes_emissão, ano_emissão,&amp;nbsp;&lt;i&gt;valor_total_ordem&lt;/i&gt;)&lt;br&gt;ITEM (&lt;u&gt;cod_ordem_compra&lt;/u&gt;,&amp;nbsp;&lt;u style=&quot;font-style: italic;&quot;&gt;cod_material&lt;/u&gt;, cod_item)&lt;br&gt;VALOR_ITENS (&lt;i style=&quot;text-decoration-line: underline;&quot;&gt;cod_item&lt;/i&gt;,&amp;nbsp;qtd_comprada, valor_total_item)&lt;br&gt;VALOR_ORDEM (&lt;u style=&quot;font-style: italic;&quot;&gt;cod_item&lt;/u&gt;,&amp;nbsp;&lt;i&gt;valor_total_item&lt;/i&gt;, valor_total_ordem)&lt;br&gt;FORNECEDOR (&lt;u&gt;cod_fornecedor&lt;/u&gt;, num_fornecedor, rua_fornecedor, numRua_fornecedor)&lt;br&gt;MATERIAL (&lt;u&gt;cod_material&lt;/u&gt;, descrição_material, valor_unitário,&amp;nbsp;&lt;i&gt;cod_fornecedor&lt;/i&gt;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="80" width="827" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="nXTcZ5FiiYC1I_z4sT3i" name="Ex2">
     <mxGraphModel dx="594" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2018,11 +2029,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bknUQOlMb-bxtMP-H4y-" name="Exs5, 6, 7 e 8">
-    <mxGraphModel dx="594" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1067" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HDH3jwhZ9GyXo72cJj6E-2" value="&lt;span style=&quot;&quot;&gt;5) Uma tabela para estar na primeira forma normal (1FN) deve garantir que&lt;br&gt;&lt;/span&gt;&lt;b&gt;b) seus atributos sejam atômicos.&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;6) É correto afirmar que ela&lt;br&gt;&lt;b&gt;a)&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;se encontra na primeira, segunda e terceira formas normais.&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;7) Marque V ou F e justifique se tiver alguma falsa:&lt;br&gt;&lt;b&gt;(F) Na terceira forma normal não existem dependências transitivas.&lt;br&gt;(V)&lt;br&gt;&lt;/b&gt;&lt;br&gt;8)&amp;nbsp;&lt;/span&gt;R1, R2 e R3 estão, respectivamente, na:&lt;br&gt;&lt;b&gt;d) segunda, primeira e terceira forma normal.&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HDH3jwhZ9GyXo72cJj6E-2" value="&lt;span style=&quot;&quot;&gt;5) Uma tabela para estar na primeira forma normal (1FN) deve garantir que&lt;br&gt;&lt;/span&gt;&lt;b&gt;b) seus atributos sejam atômicos.&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;6) É correto afirmar que ela&lt;br&gt;&lt;b&gt;a)&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;b&gt;se encontra na primeira, segunda e terceira formas normais.&lt;/b&gt;&amp;nbsp;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;7) Marque V ou F e justifique se tiver alguma falsa:&lt;br&gt;&lt;b&gt;(F) Na terceira forma normal não existem dependências transitivas.&lt;br&gt;(V)&lt;br&gt;&lt;/b&gt;&lt;br&gt;8)&amp;nbsp;&lt;/span&gt;R1, R2 e R3 estão, respectivamente, na:&lt;br&gt;&lt;b&gt;d) segunda, primeira e terceira forma normal.&lt;/b&gt;&amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="80" width="530" height="180" as="geometry" />
         </mxCell>
       </root>
