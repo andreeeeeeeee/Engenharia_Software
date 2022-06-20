@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-20T13:31:58.595Z" agent="5.0 (X11)" etag="HZ5HotyttNcEWgDytH2_" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-20T13:33:33.491Z" agent="5.0 (X11)" etag="htv2S_P1jdrI6YpGmjF0" version="20.0.1" type="github">
   <diagram id="vThqgdTcGxecUPUlP4uH" name="Ex3">
     <mxGraphModel dx="782" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,17 +73,17 @@
             <mxRectangle width="85" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BJTNGmuwHmOQBh0ry1tt-70" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-2">
+        <mxCell id="BJTNGmuwHmOQBh0ry1tt-70" value="16:31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-2">
           <mxGeometry x="170" width="85" height="30" as="geometry">
             <mxRectangle width="85" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BJTNGmuwHmOQBh0ry1tt-80" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-2">
+        <mxCell id="BJTNGmuwHmOQBh0ry1tt-80" value="Itapipoca - CE" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-2">
           <mxGeometry x="255" width="85" height="30" as="geometry">
             <mxRectangle width="85" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BJTNGmuwHmOQBh0ry1tt-75" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-2">
+        <mxCell id="BJTNGmuwHmOQBh0ry1tt-75" value="Ratanabá - MT" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-2">
           <mxGeometry x="340" width="85" height="30" as="geometry">
             <mxRectangle width="85" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -126,7 +126,7 @@
             <mxRectangle width="85" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BJTNGmuwHmOQBh0ry1tt-71" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-5">
+        <mxCell id="BJTNGmuwHmOQBh0ry1tt-71" value="19:25" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-5">
           <mxGeometry x="170" width="85" height="30" as="geometry">
             <mxRectangle width="85" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -300,7 +300,7 @@
             <mxRectangle width="85" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BJTNGmuwHmOQBh0ry1tt-90" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-84">
+        <mxCell id="BJTNGmuwHmOQBh0ry1tt-90" value="0001" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;align=left;" vertex="1" parent="BJTNGmuwHmOQBh0ry1tt-84">
           <mxGeometry x="425" width="85" height="30" as="geometry">
             <mxRectangle width="85" height="30" as="alternateBounds" />
           </mxGeometry>
